@@ -7,6 +7,34 @@ export default defineConfig({
     themeConfig: {
         nav: [
             { text: 'Privacy', link: '/privacy/main.html' },
-          ]
+            { text: 'Главная', link: '/' },
+            { text: 'Privacy', link: '/privacy/main.html' },
+          ],
+        sidebar: [
+            {
+                text: 'Section Title A',
+                items: [
+                  { text: 'Item A', link: '/item-a' },
+                  { text: 'Item B', link: '/item-b' },
+                  
+                ]
+              },
+              {
+                text: 'Section Title A',
+                items: [
+                  { text: 'Item A', link: '/item-a' },
+                  { text: 'Item B', link: '/item-b' },
+                  
+                ]
+              },
+              {
+                text: 'Section Title A',
+                items: [
+                  { text: 'Item A', link: '/item-a' },
+                  { text: 'Item B', link: '/item-b' },
+                  
+                ]
+              },
+            ]
     }
 })
